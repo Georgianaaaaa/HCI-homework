@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Smart Parking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+
+            <div class="status">Human Computer Interaction 2022</div>
+        </div>
+        <h1>Smart Parking</h1>
+    </header>
+
+    <div role="contentinfo">
+        <ol role="directory">
+            <li><a href="#introducere"><span>1.</span>Introduction</a></li>
+            <li><a href="#structura"><span>2.</span>Structure</a>
+                <ol role="directory">
+                    <li><a href="#Root"><span>2.1</span>The start page</a>
+                    </li>
+                    <li><a href="#user"><span>2.2</span>The user page</a></li>
+                    <li><a href="#park"><span>2.3</span>The parking page</a></li>
+                </ol>
+                <li><a href="#design"><span>3.</span>Design</a></li>
+                <li><a href="#qoc"><span>4.</span>QOC</a></li>
+                <li><a href="#persona"><span>4.</span>Personas</a></li>
+        </ol>
+        <dl>
+            <dt>Autor</dt>
+            <dd>
+                Lungu Georgiana
+            </dd>
+
+    </div>
+    <section id="introducere" role="doc-introducere">
+        <h2><span></span>Introducere</h2>
+        <p>
+            In order to achieve my BSc title, I chose to make a software application called <em>Smart Parking</em>.
+        </p>
+        <p>
+            This is an application that can easily find the closest parking space available from the point the user is find, so this no longer has to waste time in the city looking for one.
+        </p>
+        <p>
+        With the help of a map that contains all the parking lots in the city, the application finds the current location of the user and based on this it looks for the nearest point where the user can park the car.
+        </p>
+    </section>
+    <section id="structura">
+        <h2><span></span>Structure</h2>
+        <p>
+        The app has 3 main components: the start page, the user page and the page that manage the effective parking of the car.
+        </p>
+        <section id="Root">
+            <h3><span>3.1 </span>The start page</h3>
+            <img src="start_page.png" alt="Start_page">
+            <p>
+            The <em>start page</em> contains the next sections: <em>about</em>, <em>contact</em>, <em>help</em> and <em>log in</em>.
+            </p>
+            <p>The idea here is to make this page very intuitive and easy to use. If the user has questions regarding the app, what exactly it is and what it does, how it can be used or it wants to contact the admin/s, it can access the sections <em>about</em>, <em>contact</em> or <em>help</em>.
+            </p>
+            <p>
+            The <em>log in</em> section is the most important here. The user must to be logged in in order to use this app!!! If it has already an account, it needs to sign in using the username and the password and if it has no account, it can create a new one.
+            <p>
+            <section id="user">
+                <h3><span></span>The user page</h3>
+                <img src="user_page.png" alt="User_page">
+                <p>
+                Once logged in, the user can use the application for finding a parking space for the car by clicking the button <em>park</em> which leads to a page where more information about the parking are required.
+                </p>
+            </section>
+            <section id="park">
+                <h3><span></span>The parking page</h3>
+                <img src="parking_page.png" alt="Parking_page">
+                <p>
+                This page contains multiple fields that need to be filled in with different information such as <em>the city in which you want to park your car</em>. After the desired city is selected, the application will find the closest parking space available and after that you need to:
+                 <ul>
+                    <li>insert the number plate of your car</li>
+                    <li>insert the duration of parking</li>
+                    <li>select a method for paying (if it is required)</li>
+                </ul>
+                </p>
+            </section>
+            
+    <section id="design">
+        <h2><span></span>Design</h2>
+        <p>
+            <img src="design.png" >
+        </p>
+    </section>
+    <section id="qoc">
+        <h2><span></span>QOC</h2>
+        <p>
+
+        </p>
+
+    </section>
+
+    <section id="persona">
+        <h2><span></span>Personas</h2>
+        <p>
+            <a href="http://localhost/Smart-Parking/persona.html">http://localhost/Smart-Parking/persona.html</a>
+        </p>
+    </section>
+</body>
+
+</html>
