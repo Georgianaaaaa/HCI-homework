@@ -20,16 +20,16 @@
     <div role="contentinfo">
         <ol role="directory">
             <li><a href="#introducere"><span>1.</span>Introduction</a></li>
-            <li><a href="#structura"><span>2.</span>Structure</a>
+            <li><a href="#structura"><span>2.</span>Structure and wireframes</a>
                 <ol role="directory">
-                    <li><a href="#Root"><span>2.1</span>The start page</a>
+                    <li><a href="#Root"><span>2.1.</span>The start page</a>
                     </li>
-                    <li><a href="#user"><span>2.2</span>The user page</a></li>
-                    <li><a href="#park"><span>2.3</span>The parking page</a></li>
+                    <li><a href="#user"><span>2.2.</span>The user page</a></li>
+                    <li><a href="#park"><span>2.3.</span>The parking page</a></li>
                 </ol>
                 <li><a href="#design"><span>3.</span>Design</a></li>
                 <li><a href="#qoc"><span>4.</span>QOC</a></li>
-                <li><a href="#persona"><span>4.</span>Personas</a></li>
+                <li><a href="#persona"><span>5.</span>Personas</a></li>
         </ol>
         <dl>
             <dt>Autor</dt>
@@ -39,7 +39,7 @@
 
     </div>
     <section id="introducere" role="doc-introducere">
-        <h2><span></span>Introducere</h2>
+        <h2><span></span>Introduction</h2>
         <p>
             In order to achieve my BSc title, I chose to make a software application called <em>Smart Parking</em>.
         </p>
@@ -51,12 +51,12 @@
         </p>
     </section>
     <section id="structura">
-        <h2><span></span>Structure</h2>
+        <h2><span></span>Structure and wireframes</h2>
         <p>
         The app has 3 main components: the start page, the user page and the page that manage the effective parking of the car.
         </p>
         <section id="Root">
-            <h3><span>3.1 </span>The start page</h3>
+            <h3><span>2.1. </span>The start page</h3>
             <img src="start_page.png" alt="Start_page">
             <p>
             The <em>start page</em> contains the next sections: <em>about</em>, <em>contact</em>, <em>help</em> and <em>log in</em>.
@@ -67,14 +67,14 @@
             The <em>log in</em> section is the most important here. The user must to be logged in in order to use this app!!! If it has already an account, it needs to sign in using the username and the password and if it has no account, it can create a new one.
             <p>
             <section id="user">
-                <h3><span></span>The user page</h3>
+                <h3><span>2.2. </span>The user page</h3>
                 <img src="user_page.png" alt="User_page">
                 <p>
                 Once logged in, the user can use the application for finding a parking space for the car by clicking the button <em>park</em> which leads to a page where more information about the parking are required.
                 </p>
             </section>
             <section id="park">
-                <h3><span></span>The parking page</h3>
+                <h3><span>2.3. </span>The parking page</h3>
                 <img src="parking_page.png" alt="Parking_page">
                 <p>
                 This page contains multiple fields that need to be filled in with different information such as <em>the city in which you want to park your car</em>. After the desired city is selected, the application will find the closest parking space available and after that you need to:
@@ -88,15 +88,25 @@
             
     <section id="design">
         <h2><span></span>Design</h2>
-        <p>
+        <p>The main page: </p>
             <img src="design.png" >
+        <p>The user page: </p>
             <img src="design1.png" >
+        <p>The parking page: </p>
             <img src="design2.png" >
-        </p>
     </section>
     <section id="qoc">
         <h2><span></span>QOC</h2>
         <p>
+            <ol>
+                <h3><li>How is the user's first interaction with the application?</h3>
+                <span>Firstly, the user can see 4 buttons : ABOUT, CONTACT, HELP and LOG IN. It can click on each of them, but if it wants to use the app, it must click on LOG IN button in order to create an account or to access the actual one. </span>
+                </li>
+                <h3><li>How can a client use the functionalities of this app?</h3>
+                <span>After logging in, it should click the PARK button in order to find a parking space for its car. From here, all is very intuitive and straightforward.</span></li>
+                <h3><li>How does the user get to the location resulting from the app?</h3>
+                <span>The app will find the nearest parking space available from the point user is found (information introduced by hand in a search box) and will show it the route using the map and GPS. Then, the user only has to follow the indications to the parking place. Once the user has reached the destination, it has to introduce the number plate of its car in order to be indentified in database and also the time parking, finally paying it by SMS or CREDIT CARD. </span></li>
+            </ol>
 
         </p>
 
